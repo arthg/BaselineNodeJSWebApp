@@ -4,7 +4,12 @@
   "description": "NodejsWebApp",
   "main": "server.js",
   "author": {
-    "name": "Arthur",
-    "email": ""
+    "name": "Arthur Gorr",
+    "email": "art.gorr@gmail.com"
+  },
+  "dependencies": {
+    "express": "~4.10.5",
+    "underscore": "~1.7.0",
+    "vash": "~0.7.12-1"
   }
 }
