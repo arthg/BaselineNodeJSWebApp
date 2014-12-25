@@ -10,6 +10,7 @@
   "dependencies": {
     "express": "~4.10.5",
     "underscore": "~1.7.0",
-    "vash": "~0.7.12-1"
+    "vash": "~0.7.12-1",
+    "require": "~2.4.17"
   }
 }

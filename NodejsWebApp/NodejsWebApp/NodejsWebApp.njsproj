@@ -30,9 +30,23 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="controllers\homeController.js" />
+    <Compile Include="controllers\index.js" />
+    <Compile Include="data\index.js" />
+    <Compile Include="data\seedData.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
+    <Content Include="public\css\site.css" />
     <Content Include="README.md" />
+    <Content Include="Views\index.vash" />
+    <Content Include="Views\layout.vash" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="controllers\" />
+    <Folder Include="data\" />
+    <Folder Include="Views\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
