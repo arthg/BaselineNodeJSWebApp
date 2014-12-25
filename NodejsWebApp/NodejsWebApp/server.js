@@ -3,6 +3,7 @@ var express = require("express");
 var app = express();
 
 var controllers = require("./controllers");
+controllers.init(app);
 
 app.set("view engine", "vash"); // vash view engine
 
